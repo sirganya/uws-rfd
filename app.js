@@ -1,14 +1,3 @@
-//* EC2 a1.medium instance
-
-// redis write 14ms Total: 55453
-// redis read - TotalMS:397154 avgMS: 9818 maxMS: 48967 opened: 19368 message: 2161967
-
-// fastDriverRedis write 92ms total: 55775
-// fastDriverRedis read Total:1489183 avg: 3152 max: 78564 opened: 20000 message: 9272214
-
-// ioredis write 19 Total: 55237
-// ioredis read TotaMSl:348908 avgMS: 10286 maxMS: 43538 opened: 19092 message: 1868089
-
 const uWS = require("uWebSockets.js");
 const decode = require("./src/decode-utf-8");
 
