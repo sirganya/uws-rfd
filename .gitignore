@@ -1,0 +1,7 @@
+.DS_Store
+.meteor/local/
+/node_modules
+tests/
+docs/
+examples/
+misc/
